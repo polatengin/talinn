@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
-function App() {
+import Webcam from 'react-webcam';
+
+export const App: React.FunctionComponent = () => {
   return (
     <>
     </>
