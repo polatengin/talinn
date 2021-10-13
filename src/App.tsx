@@ -8,9 +8,6 @@ export const App: React.FunctionComponent = () => {
 
   return (
     <>
-    <header className="header">
-        <div className="title">face mask App</div>
-      </header>
       <Webcam
         audio={false}
         ref={webcam}
